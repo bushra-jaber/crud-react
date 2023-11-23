@@ -32,6 +32,7 @@ const ChangeData=(e)=>{
    setloader(true);
    if(Object.keys(validationUserData(user)).length>0){
     setErrors(validationUserData(user));
+  
    }
    else{
     try{
